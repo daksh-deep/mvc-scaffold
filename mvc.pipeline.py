@@ -25,22 +25,7 @@ def main():
     create_file('app.js')
     create_file('.env', "PORT=3000\nDATABASE_URL=<your_mongo_connection>")
     create_file('config/database_config.js')
-
-    # Updated README content
-    readme_content = '''
-    ## Project Setup
-    Generated using Python Script - [Github](https://github.com/daksh-deep/mvc-setup-script)
-
-    ## Author
-    For any inquiries or support, please contact:
-    - **Daksh Deep**: [dakshsaxena04@gmail.com](mailto:dakshsaxena04@gmail.com)
-
-    ## License
-
-    This project is open-source and available under the **MIT License**.
-    '''
-
-    create_file('README.md', readme_content)
+    create_file('README.md')
 
     # Create logs folder and log file
     create_file('logs/app.log')
