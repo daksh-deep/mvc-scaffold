@@ -1,15 +1,15 @@
 # MVC Scaffold
 
-A Python script that automatically generates a robust MVC (Model-View-Controller) project structure for Node.js applications. This tool helps developers scaffold a new project efficiently with all necessary directories, configuration files, and dependencies.
+A Python script that automatically generates a robust MVC (Model-View-Controller) project structure for Node.js applications. This tool helps developers scaffold new projects efficiently with all necessary directories, configuration files, and dependencies.
 
 ## Features
 
-- Generates a complete MVC folder structure
-- Creates essential configuration files for the project
-- Sets up environment variables with `.env`
-- Initializes npm and installs dependencies like Express, Mongoose, and Dotenv
-- Offers support for both JavaScript and TypeScript
-- Provides boilerplate database connection code (`database_config.js` or `database_config.ts`)
+- Generates a complete MVC folder structure.
+- Creates essential configuration files for the project.
+- Sets up environment variables with `.env`.
+- Initializes npm and installs dependencies like Express, Mongoose, and Dotenv.
+- Supports both JavaScript and TypeScript.
+- Provides boilerplate database connection code (`database_config.js` or `database_config.ts`).
 
 ## Generated Structure
 
@@ -40,7 +40,7 @@ project-root/
    cd mvc-scaffold
    ```
 
-3. Ensure Python 3.8.1 (and above) is installed on your system.
+3. Ensure Python 3.8.1 (or above) is installed on your system.
 
 ## Usage
 
@@ -58,12 +58,12 @@ Once completed, the script will create all necessary folders, files, and configu
 
 ## Generated Files
 
-- **app.js** or **app.ts**: Main application entry point
-- **.env**: Environment variables configuration
-- **config/database_config.js** or **config/database_config.ts**: Database configuration settings
-- **logs/app.log**: Application logging file
-- MVC directories: `controllers/`, `models/`, `routes/`, `views/`
-- **README.md**: Documentation for the project
+- **app.js** or **app.ts**: Main application entry point.
+- **.env**: Environment variables configuration.
+- **config/database_config.js** or **config/database_config.ts**: Database configuration settings.
+- **logs/app.log**: Application logging file.
+- MVC directories: `controllers/`, `models/`, `routes/`, `views/`.
+- **README.md**: Documentation for the project.
 
 ## Environment Variables
 
@@ -79,22 +79,23 @@ Update these values based on your project requirements.
 ## Customization
 
 You can modify the script to:
-- Add more directories
-- Include additional configuration files
-- Customize boilerplate templates
-- Install additional dependencies
+- Add more directories.
+- Include additional configuration files.
+- Customize boilerplate templates.
+- Install additional dependencies.
 
-Simply edit the `folders` list or `create_file()` function in the script.
+Simply edit the `folders` list or the `create_file()` function in the script.
 
 ## Requirements
 
-- Python 3.8.1 (and above)
-- Node.js and npm installed on your system
-- Write permissions in the target directory
+- Python 3.8.1 (or above).
+- Node.js and npm installed on your system.
+- Write permissions in the target directory.
 
 ## Dependencies
+
 - **inquirer**  
-> The script internally installs the `inquirer` package if it's not already installed in your environment. This package is used to prompt the user for input during the setup process.
+The script internally installs the `inquirer` package if it's not already installed in your environment. This package is used to prompt the user for input during the setup process.
 
 ## Contributing
 
@@ -105,7 +106,7 @@ Simply edit the `folders` list or `create_file()` function in the script.
    ```
 3. Commit your changes:
    ```bash
-   git commit -m 'Add some amazing feature'
+   git commit -m "Add some amazing feature"
    ```
 4. Push to the branch:
    ```bash
@@ -129,4 +130,3 @@ This project is open-source and available under the MIT License.
 ## Acknowledgments
 
 - Inspired by common MVC architecture patterns in modern web development.
-
